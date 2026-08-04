@@ -4,7 +4,7 @@ import numpy as np
 
 aux=0
 
-imagen= Image.open("pandaRojo")
+imagen= Image.open("panda.png")
 gris= imagen.convert("L")
 
 m=np.array(gris)
